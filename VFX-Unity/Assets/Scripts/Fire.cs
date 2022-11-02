@@ -16,7 +16,7 @@ public class Fire : MonoBehaviour
     public ParticleSystem sparksParticleSystem;
     public ParticleSystem smokeParticleSystem;
     public float fireFadeDelay = 1;
-    public Weather weatherSystem;
+    public WeatherSys weatherSystem;
     AudioSource audioSrc;
     bool isFireOut = false;
 
